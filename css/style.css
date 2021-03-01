@@ -1,0 +1,34 @@
+/* Style */
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  /* to centralize */
+  padding: 0;
+}
+
+html {
+  background-color: #111;
+}
+
+body {
+  margin: 5vw;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+table {
+  border-collapse: collapse;
+  /* to make the boxes sticking to each other */
+}
+
+table tr:nth-child(odd) td:nth-child(even) {
+  height: 3rem;
+  width: 3rem;
+  background: rgb(35, 117, 110);
+}
+table tr:nth-child(even) td:nth-child(odd) {
+  height: 3rem;
+  width: 3rem;
+  background-color: rgb(126, 134, 141);
+}
